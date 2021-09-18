@@ -1,0 +1,7 @@
+{
+  "LoginPage": {
+    "usernameTxt": "id;okta-signin-username",
+    "passwordTxt": "id;okta-signin-password",
+    "submitBtn": "id;okta-signin-submit"
+  }
+}
