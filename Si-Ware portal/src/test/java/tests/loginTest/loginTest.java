@@ -9,12 +9,17 @@ public class loginTest extends BaseTest {
     private static LoginPage loginPage;
 
     @BeforeTest
-    public void initialization(){
+    public void initialization() {
         loginPage = new LoginPage();
     }
 
-    @Test
-    public void validLogin(){
+    @Test(priority = 1)
+    public void validLogin() {
         loginPage.validLogin();
+    }
+
+    @Test(priority = 2)
+    public void assertLogin() {
+        loginPage.assertLogin();
     }
 }

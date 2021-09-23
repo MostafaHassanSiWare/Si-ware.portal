@@ -3,5 +3,13 @@
     "usernameTxt": "id;okta-signin-username",
     "passwordTxt": "id;okta-signin-password",
     "submitBtn": "id;okta-signin-submit"
+  },
+
+  "HomePage": {
+    "homeTxt": "xpath;//h1[normalize-space()='Home']"
+  },
+
+  "UserPage": {
+    "UserTxt": "xpath;//h1[normalize-space()='Users']"
   }
 }

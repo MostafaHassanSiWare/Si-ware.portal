@@ -49,6 +49,10 @@ public class BasePage {
         DriverFactory.getDriver().switchTo().window(parentWindowID);
     }
 
+    public static void elementGetText(WebElement element){
+        element.getText();
+    }
+
     public static String getPageCurrentURL() {
         String currentURL = null;
         try {
